@@ -1,0 +1,21 @@
+#header{
+    background-color: rgba(243, 240, 240, 0.856);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#header h1{
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.menu .menu_item{
+    margin: 0 20px;
+}

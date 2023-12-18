@@ -1,0 +1,116 @@
+/* HOME */
+
+#home{
+    position: relative;
+}
+
+#home .bg_home{
+    background-image: url("../images/bg_home.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 70%;
+} 
+
+#home .container_home{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+#home .info_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home .info_home .central_logo{
+    padding-top: 180px;
+    width: 350px;
+    height: 350px;
+}
+
+.welcome_text{
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+/* CONCEPTO */
+
+#concept{
+    position: relative;
+}
+
+#concept .bg_concepto{
+    background-image: url("../images/bg_concepto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 70%;
+}
+
+#concept .container_concepto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#concept .bg_info{
+    background-image: url("../images/bg_concepto_section.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 650px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#concept .info_text{
+    position: absolute;
+  top: 300px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+/* FOTOS */
+
+#photos{
+    position: relative;
+}
+
+#photos .bg_home{
+    background-image: url("../images/bg_home.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 70%;
+} 
+
+#photos .container_photos{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#photos .gallery{
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#photos .photo{
+    margin: 5px auto;
+
+}
+
+#photos .image{
+    width: 250px;
+    height: 350px;
+}
