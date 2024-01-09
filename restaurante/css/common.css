@@ -17,3 +17,25 @@ ul{
     align-items: center;
     justify-content: space-between;
 }
+
+.line_title{
+    display: inline-block;
+    position: relative;
+}
+
+.line_title::after, .line_title::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: #000;
+    top: 0.5em;
+}
+
+.line_title::before{
+    left: -130px;
+}
+
+.line_title::after{
+    right: -130px;
+}

@@ -114,3 +114,82 @@
     width: 250px;
     height: 350px;
 }
+
+/* MENU */
+
+#menu{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#menu .r-menu_header{
+    text-align: center;
+}
+
+#menu .r-menu_list{
+    padding: 0;
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#menu .r-menu_list li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+#menu .r-menu_wrapper{
+    position: relative;
+}
+
+#menu .r-menu_wrapper .bg_home{
+    background-image: url("../images/bg_home.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 70%;
+}
+
+#menu .r-menu_wrapper .r-menu_container{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#menu .r-menu_wrapper .r-menu_container .r-menu_item{
+    background-color: #fff;
+}
+
+#menu .r-menu_wrapper .r-menu_container .r-menu_item table{
+    margin: 50px 5px;
+}
+
+#menu .r-menu_wrapper .r-menu_container .r-menu_item table tr th{
+    text-align: left;
+    padding: 10px;
+}
+
+#menu .r-menu_wrapper .r-menu_container .r-menu_item table tr td{
+    padding: 10px;
+    font-size: 12px;
+}
+
+#menu .r-menu-all-link-container{
+    margin: 30px 0;
+    text-align: center;
+}
+
+#menu .r-menu-all-link-container .r-menu-all-link{
+    text-decoration: none;
+    background-color: #b88437;
+    color:#fff;
+    font-size: 12px;
+    padding: 10px;
+
+}
