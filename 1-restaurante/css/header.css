@@ -19,3 +19,17 @@
 .menu .menu_item{
     margin: 0 20px;
 }
+
+.menu .menu_item a{
+    color: #494848;
+    text-decoration: none;
+    padding: 0 0 10px;
+}
+
+.menu .menu_item a:hover{
+    border-bottom: 2px solid #b88437;
+}
+
+.menu .menu_item a.selected{
+    border-bottom: 2px solid #b88437;
+}
